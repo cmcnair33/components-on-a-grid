@@ -21,9 +21,21 @@ header {
 }
 
 body {
+  background-color: #f2f1ed;
   display: grid;
   grid-template-areas:
     "header header"
     "header header"
     "figure figure"
+}
+
+main {
+  display: grid;
+  grid-area: figure;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+figure {
+  margin: 0;
 }
